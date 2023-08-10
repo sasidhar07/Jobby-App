@@ -1,0 +1,63 @@
+.companyLogo {
+  width: 9vh;
+}
+.companyLogoCard {
+  display: flex;
+  align-items: center;
+}
+.jobItemLink {
+  color: black;
+}
+.ratingCard {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.ratingStarImg {
+  color: #fbbf24;
+  font-size: 23px;
+  margin-right: 3px;
+}
+.eachJobItem {
+  margin: 10px;
+  background-color: #202020;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+.jobItemTitle {
+  font-size: 20px;
+  margin: 0;
+}
+.ratingHead {
+  margin: 10px;
+}
+.titleAndRatingCard {
+  margin-left: 15px;
+}
+.jobDetailsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jobLocationAndTypeCard {
+  display: flex;
+  align-items: center;
+}
+.jobLoctaionIcon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.jobTypeIcon {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.jobPackagePara {
+  font-size: 20px;
+}
+.jobDiscriptionPara {
+  font-size: 25px;
+}

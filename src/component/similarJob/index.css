@@ -1,0 +1,59 @@
+.SimilarJobCompanyLogo {
+  width: 7vh;
+  margin-right: 15px;
+}
+.SimilarJobDetailsTitle {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.SimilarJobRatingCard {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.SimilarJobRatingStarImg {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 3px;
+}
+.SimilarCompanyDetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.SimilarJobRatingHead {
+  margin: 0;
+}
+.similarJobCard {
+  background-color: #202020;
+  margin: 30px;
+  margin-left: 0;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+.SimilarJobLocationAndTypeCard {
+  display: flex;
+  align-items: center;
+}
+.SimilarJobLoctaionIcon {
+  margin-right: 10px;
+}
+.SimilarJobTypeIcon {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.SimilarJobDetailsDescription {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1000px) {
+  .similarJobCard {
+    background-color: #202020;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+  }
+}

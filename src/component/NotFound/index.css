@@ -1,0 +1,12 @@
+.NotFoundImg {
+  width: 30%;
+}
+.NotFoundCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  color: white;
+  flex-direction: column;
+}

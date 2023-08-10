@@ -1,0 +1,152 @@
+.JobCompanyLogo {
+  width: 9vh;
+}
+
+.companyLogoCard {
+  display: flex;
+  align-items: center;
+}
+.jobDetailsCard1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.JobRatingCard {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.JobRatingStarImg {
+  color: #fbbf24;
+  font-size: 23px;
+  margin-right: 3px;
+}
+.jobDetailsTitle {
+  font-size: 20px;
+  margin: 0;
+}
+.jobRatingHead {
+  margin: 10px;
+}
+.titleAndRatingCardForJobDetails {
+  margin-left: 15px;
+}
+.jobDetailsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jobDetailsLocationAndTypeCard {
+  display: flex;
+  align-items: center;
+}
+.jobDetailsLoctaionIcon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.jobDetailsTypeIcon {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.jobDetailsPackagePara {
+  font-size: 20px;
+}
+
+.jobDetailsCont {
+  background-color: black;
+  min-height: 90vh;
+  color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jobDetailsCard {
+  background-color: #202020;
+}
+
+#hr {
+  width: 100%;
+}
+.skillsCard {
+  display: flex;
+  align-content: center;
+  margin-right: 15%;
+  margin-bottom: 30px;
+  width: 18%;
+  height: 20%;
+}
+.skillImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.skillsCardUlist {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+}
+.skillHead {
+  font-size: 20px;
+  white-space: nowrap;
+}
+.lifeAtCompanyCard {
+  display: flex;
+}
+.SimilarProductsUl {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lifeAtCompanyPara {
+  margin-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .SimilarProductsUl {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .lifeAtCompanyCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .lifeAtCompanyPara {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skillsCard {
+    display: flex;
+    align-content: center;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    width: 30%;
+    height: 20%;
+  }
+  .skillImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .skillHead {
+    font-size: 15px;
+    white-space: nowrap;
+  }
+}
+.SimilarJobsHeading {
+  margin-right: auto;
+}

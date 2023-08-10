@@ -1,0 +1,47 @@
+.profileCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 35vh;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.loaderCardForProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 35vh;
+  height: 35vh;
+}
+
+.profileImg {
+  width: 50px;
+}
+.profileHead {
+  margin: 5px;
+  margin-left: 0;
+  color: #6366f1;
+  font-size: 20px;
+}
+.profilePara {
+  color: #475569;
+}
+@media only screen and (max-width: 830px) {
+  .profileCard {
+    width: 100%;
+  }
+}
+.failureJobButton {
+  background-color: #6366f1;
+  border: 0;
+  padding: 9px;
+  padding-left: 18px;
+  cursor: pointer;
+  color: white;
+  padding-right: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}

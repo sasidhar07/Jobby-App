@@ -1,0 +1,17 @@
+.salaryFilterItem {
+  color: white;
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  margin-left: 0;
+}
+.salaryInput {
+  width: 30px;
+  border: o;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 0;
+}
+.salaryFilterPara {
+  margin: 0;
+}

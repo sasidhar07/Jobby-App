@@ -1,0 +1,17 @@
+.typeFilterItem {
+  color: white;
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  margin-left: 0;
+}
+.typeInput {
+  width: 30px;
+  border: o;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 0;
+}
+.typeFilterPara {
+  margin: 0;
+}
